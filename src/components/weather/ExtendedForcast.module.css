@@ -1,0 +1,20 @@
+.allDays{
+    display: flex;
+    justify-content: space-between;
+}
+.eachDays{
+    margin:auto;
+   
+}
+.dayAndPic{
+    display: block;
+    margin-top: 50px;
+    padding: 50px;
+}
+.text{
+    font-family: cursive;
+    color: dodgerblue;
+    font-size: 2rem;
+    font-weight:bold ;
+   
+}

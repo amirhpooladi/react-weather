@@ -1,0 +1,53 @@
+.text{
+    font-family: cursive;
+    color: dodgerblue;
+    font-size: 2rem;
+    font-weight:bold ;
+
+}
+.cityName{
+    font-size: 1.2rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.skyAndDegree{
+    display: flex;
+    justify-content:left;
+}
+.weatherCondition{
+    color: rgb(143, 137, 137);
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+.allSide{
+    display: flex;
+    justify-content:center;
+    
+    
+}
+.leftSide{
+    padding: 80px;
+}
+.rightSide{
+    padding: 80px; 
+}
+
+
+
+.upAndDown{
+    display: flex;
+    justify-content: left;
+    direction: ltr;
+}
+.temp{
+    font-size: 3rem;
+}
+.icon{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.5rem;
+}

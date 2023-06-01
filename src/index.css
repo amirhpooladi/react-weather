@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: rgb(5, 5, 41);
+  position: relative;
+ 
+  
+}
+.darkBody{
+  background-color: rgb(5, 5, 41);
+  font-family: cursive;
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.mainTextColor{
+  color: dodgerblue;
+}
+p{
+  color: dodgerblue;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.lightBody{
+  background-color: rgb(106, 173, 240);
+  font-family: cursive;
+  background-size:cover;
+
 }
+.lightBody p{
+  color: rgb(5, 5, 41);
+  
+}
+.lightBody button{
+  background-color:  rgb(5, 5, 41); ;
+}
+
+
+.darkCard{
+   
+  border-radius:5%;
+  border-style:groove;
+  border-color: rgb(47, 133, 209);
+  padding: 3%;
+  background-color: rgb(10, 14, 83);
+margin: auto;
+margin-top: 100px;
+  width: fit-content;
+ 
+ 
+  
+}
+.lightCard{
+  border-radius:5%;
+  border-style:groove;
+  border-color:  rgb(10, 14, 83) ;
+  padding: 3%;
+  background-color:rgb(47, 133, 209) ;
+  margin: auto;
+margin-top: 100px;
+
+  width: fit-content;
+
+
+}
+.all{
+  margin: auto;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+
