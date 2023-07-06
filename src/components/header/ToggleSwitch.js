@@ -14,8 +14,8 @@ const ToggleSwitch = () => {
 
   };
   return (
-    <div>
-      <div className="form-check form-switch">
+      <div className={classes.toggle}>
+      <div className= "form-check form-switch" >
         <input
           onClick={modeHandler}
           className="form-check-input"
@@ -32,7 +32,7 @@ const ToggleSwitch = () => {
           {mode?<p>Light</p>:<p>Dark</p>}
         </label>
       </div>
-    </div>
+      </div>
   );
 };
 

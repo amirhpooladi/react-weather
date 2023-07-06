@@ -1,6 +1,9 @@
 body{
   background-color: rgb(5, 5, 41);
   position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
  
   
 }
@@ -44,9 +47,11 @@ p{
   border-color: rgb(47, 133, 209);
   padding: 3%;
   background-color: rgb(10, 14, 83);
-margin: auto;
-margin-top: 100px;
+  margin: auto;
+  margin-top: 100px;
   width: fit-content;
+  display: grid;
+ 
  
  
   
@@ -58,17 +63,16 @@ margin-top: 100px;
   padding: 3%;
   background-color:rgb(47, 133, 209) ;
   margin: auto;
-margin-top: 100px;
-
+  margin-top: 100px;
   width: fit-content;
+  display: grid;
 
 
 }
 .all{
   margin: auto;
   position: absolute;
-  display: flex;
-  flex-direction: column;
+
 }
 
 

@@ -19,20 +19,23 @@ function App() {
     darkCard = "lightCard";
   }
   return (
-    <div className={"all"}>
+   
       <div className={darkMode}>
-      {darkMode==="darkBody"?<style>{'body { background-color: rgb(5, 5, 41); }'}</style>:<style>{'body { background-color: rgb(106, 173, 240); }'}</style>}
-      
-      <div className={classes.headerAndToggle}>
-        <div className={classes.header}>
-          <NavBar />
+        {darkMode === "darkBody" ? (
+          <style>{"body { background-color: rgb(5, 5, 41); }"}</style>
+        ) : (
+          <style>{"body { background-color: rgb(106, 173, 240); }"}</style>
+        )}
 
-          <Header />
+        <div className={classes.headerAndToggle}>
+          <div className={classes.header}>
+            <Header />
+          </div>
+          
+          <div className={classes.toggle}>
+            <ToggleSwitch />
+          </div>
         </div>
-        <div className={classes.toggle}>
-          <ToggleSwitch />
-        </div>
-</div>
         <Search />
         <Card>
           <MainWeather />
@@ -44,7 +47,7 @@ function App() {
 
         <p className={classes.Amir}>Developed by Amirhossein pooladi</p>
       </div>
-    </div>
+  
   );
 }
 

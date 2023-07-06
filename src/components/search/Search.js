@@ -54,6 +54,7 @@ const Search = () => {
 
   return (
     <div>
+   
     <div className={classes.centered}>
       <form onSubmit={submitHandler} className="row g-3">
         <div className="col-auto"></div>
@@ -84,6 +85,7 @@ const Search = () => {
       
     </div>
     {!error ? faildToFetch : ""}
+ 
     </div>
   );
 };

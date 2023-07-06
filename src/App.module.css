@@ -1,23 +1,14 @@
-.header{
-display: flex;
-  padding: 50px;
-  font-size: 1.5rem;
-}
-
-.toggle{
-  display: flex;
-justify-content:right;
-
-  padding: 50px;
-  font-size: 1.5rem;
-}
-
 .headerAndToggle{
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr  1fr 1fr 1f 1f 1f ;
 }
 .Amir{
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+.toggle{
+  grid-column-start: 6;
+  
+ 
 }
